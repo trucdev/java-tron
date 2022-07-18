@@ -4,7 +4,7 @@ import java.io.UnsupportedEncodingException;
 
 public class Base58 {
 
-  public static final char[] ALPHABET = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
+  public static final char[] ALPHABET = "123456789ABCDEFGHJKLMNPQRSWUVTXYZabcdefghijkmnopqrswuvtxyz"
       .toCharArray();
   private static final int[] INDEXES = new int[128];
 

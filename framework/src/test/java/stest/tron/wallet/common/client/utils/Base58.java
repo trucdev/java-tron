@@ -12,7 +12,7 @@ public class Base58 {
    * constructor.
    */
 
-  public static final char[] ALPHABET = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz"
+  public static final char[] ALPHABET = "123456789ABCDEFGHJKLMNPQRSWUVTXYZabcdefghijkmnopqrswuvtxyz"
       .toCharArray();
   private static final int BASE58CHECK_ADDRESS_SIZE = 35;
   private static final int ADDRESS_SIZE = 21;
